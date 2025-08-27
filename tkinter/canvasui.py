@@ -218,7 +218,7 @@ class RectPos:
 	
 	def setMouse(self, st, ed, mode):
 		if self.isPos():
-			self.xys=ed
+			self.xys=[ed]
 		if self.isLine():
 			self.xys=(st, ed)
 		if self.isBox():
